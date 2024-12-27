@@ -19,7 +19,7 @@ const UploadJson = () => {
 
       try {
          //  const response = await axios.post(
-         //     "http://localhost:5000/api/upload",
+         //     "http://localhost:5000/upload",
          //     formData,
          //     {
          //        responseType: "blob",
@@ -27,7 +27,7 @@ const UploadJson = () => {
          //  );
 
          const response = await axios.post(
-            "https://json-to-excel-backend-36cf0b82y-gaurav-joshis-projects-1f07293c.vercel.app/api/upload",
+            "https://json-to-excel-backend-36cf0b82y-gaurav-joshis-projects-1f07293c.vercel.app/upload",
             formData,
             {
                responseType: "blob",
